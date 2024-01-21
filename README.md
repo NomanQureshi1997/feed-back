@@ -38,6 +38,13 @@ git clone -b backend --single-branch https://github.com/your-username/your-proje
 cd your-project
 ```
 
+### Copy the Environment Configuration
+
+``` sh
+cp .env.example .env
+
+```
+
 ```sh
 composer install
 ```
@@ -65,3 +72,5 @@ php artisan sanctum:install
 ### Make sure to replace `your-username` and `your-project` with your actual GitHub username and project name.
 
 ### Feel free to add any additional steps or information that might be relevant to your project.
+
+
