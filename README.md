@@ -46,6 +46,22 @@ composer install
 php artisan migrate
 ```
 
+### Install Laravel Sanctum
+
+```sh
+composer require laravel/sanctum
+```
+### composer require laravel/sanctum
+
+```sh
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+```
+### Publish Sanctum Configuration
+
+```sh
+php artisan sanctum:install
+```
+
 ### Make sure to replace `your-username` and `your-project` with your actual GitHub username and project name.
 
 ### Feel free to add any additional steps or information that might be relevant to your project.
