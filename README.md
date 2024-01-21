@@ -27,3 +27,28 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# Backend
+
+### Clone the Backend Repository
+```sh
+git clone -b backend --single-branch https://github.com/your-username/your-project.git
+```
+
+```sh
+cd your-project
+```
+
+```sh
+composer install
+```
+
+```sh
+php artisan migrate
+```
+
+Make sure to replace `your-username` and `your-project` with your actual GitHub username and project name.
+
+Feel free to add any additional steps or information that might be relevant to your project.
+
+
