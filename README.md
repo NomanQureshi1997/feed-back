@@ -2,13 +2,12 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+# Frontend
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Clone the Frontend Repository
+```sh
+git clone -b frontend --single-branch https://github.com/your-username/your-project.git
+```
 
 ## Project Setup
 
@@ -47,8 +46,8 @@ composer install
 php artisan migrate
 ```
 
-Make sure to replace `your-username` and `your-project` with your actual GitHub username and project name.
+### Make sure to replace `your-username` and `your-project` with your actual GitHub username and project name.
 
-Feel free to add any additional steps or information that might be relevant to your project.
+### Feel free to add any additional steps or information that might be relevant to your project.
 
 
