@@ -30,7 +30,7 @@ class FeedbackController extends Controller
     
     public function index(Request $request)
     {
-        $feedbacks = Feedback::with(['user','comments'])->paginate(10);
+        $feedbacks = Feedback::with(['user','comments'])->orderBy('created_at', 'desc')->paginate(10);
 
         return response()->json(['feedbacks' => $feedbacks], 200);
     }

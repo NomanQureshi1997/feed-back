@@ -30,8 +30,8 @@ class CommentController extends Controller
 
     public function index($feedbackId)
     {
-        $comments = FeedbackComment::where('feedback_id', $feedbackId)->get();
+        $comments = FeedbackComment::where('feedback_id', $feedbackId)->with('user')->orderBy('created_at', 'desc')->get();
 
-        return response()->json(['comments' => $comments], 200);
+        return response()->json(['comments' => $comments->toArray()], 200);
     }
 }

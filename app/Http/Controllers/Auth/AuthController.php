@@ -35,7 +35,7 @@ class AuthController extends Controller
                 'access_token' => $token,
             ]);
         }catch(ValidationException $e) {
-            return response()->json(['error' => $e->validator->errors()], 422);
+            return response()->json(['error' => $e->validator->errors()->messages()], 422);
         }
     }
 
